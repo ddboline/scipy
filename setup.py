@@ -390,8 +390,6 @@ def parse_setuppy_commands():
             """,
         check="`setup.py check` is not supported",
         register="`setup.py register` is not supported",
-        bdist_dumb="`setup.py bdist_dumb` is not supported",
-        bdist="`setup.py bdist` is not supported",
         flake8="`setup.py flake8` is not supported, use flake8 standalone",
         )
     bad_commands['nosetests'] = bad_commands['test']
